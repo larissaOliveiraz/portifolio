@@ -55,6 +55,8 @@ export const Projects = () => {
                         title={item.title}
                         image={item.image}
                         techs={[item.techs[0], item.techs[1], item.techs[2]]}
+                        site={item.site}
+                        github={item.repository}
                      />
                   ))}
 
@@ -66,6 +68,8 @@ export const Projects = () => {
                            title={item.title}
                            image={item.image}
                            techs={[item.techs[0], item.techs[1], item.techs[2]]}
+                           site={item.site}
+                           github={item.repository}
                         />
                      )
                )}

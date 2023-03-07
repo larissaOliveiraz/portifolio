@@ -11,9 +11,11 @@ type Props = {
    title: string;
    image: string;
    techs: string[];
+   site: string;
+   github: string;
 };
 
-export const ProjectCard = ({ title, image, techs }: Props) => {
+export const ProjectCard = ({ title, image, techs, site, github }: Props) => {
    return (
       <Container>
          <ImageContainer>
@@ -34,10 +36,10 @@ export const ProjectCard = ({ title, image, techs }: Props) => {
             </TechsContainer>
             <ButtonContainer>
                <button>
-                  <a href="/">Github</a>
+                  <a href={github}>Github</a>
                </button>
                <button>
-                  <a href="/">Site</a>
+                  <a href={site}>Site</a>
                </button>
             </ButtonContainer>
          </InfoContainer>
