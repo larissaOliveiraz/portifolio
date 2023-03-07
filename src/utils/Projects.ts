@@ -1,15 +1,9 @@
 import deliveryImg from "../assets/delivery.jpg";
 import bookImg from "../assets/book.jpg";
 
-const jsIcon: string = require("../assets/javascript.svg").default;
 const tsIcon: string = require("../assets/typescript.svg").default;
 const reactIcon: string = require("../assets/react.svg").default;
-const htmlIcon: string = require("../assets/html.svg").default;
 const nextIcon: string = require("../assets/next.svg").default;
-const cssIcon: string = require("../assets/css.svg").default;
-const tailIcon: string = require("../assets/tailwind.svg").default;
-const pythonIcon: string = require("../assets/python.svg").default;
-const javaIcon: string = require("../assets/java.svg").default;
 const brushIcon: string = require("../assets/brush.svg").default;
 
 export type Project = {
