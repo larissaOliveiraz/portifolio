@@ -1,6 +1,8 @@
 import deliveryImg from "../assets/delivery.jpg";
 import bookImg from "../assets/book.jpg";
+import airbnbImg from "../assets/airbnb-clone-img.png";
 
+const jsIcon: string = require("../assets/javascript.svg").default;
 const tsIcon: string = require("../assets/typescript.svg").default;
 const reactIcon: string = require("../assets/react.svg").default;
 const nextIcon: string = require("../assets/next.svg").default;
@@ -20,14 +22,13 @@ export type Project = {
 const ProjectsInfo: Project[] = [
    {
       id: "1",
-      title: "NextDelivery",
-      techs: ["next", "Typescript", "Css-Modules"],
-      description:
-         "Sistema de delivery que pode ser customizado com informações dinâmicas de cada cliente",
-      image: deliveryImg,
-      icons: [nextIcon, tsIcon, brushIcon],
-      repository: "/",
-      site: "/",
+      title: "Airbnb-clone",
+      techs: ["next", "Javascript", "Tailwind"],
+      description: "Clone simples do front-end do site da Airbnb",
+      image: airbnbImg,
+      icons: [nextIcon, jsIcon, brushIcon],
+      repository: "https://github.com/larissaOliveiraz/airbnb-cl",
+      site: "https://airbnb-clone-ten-pi.vercel.app",
    },
    {
       id: "2",
