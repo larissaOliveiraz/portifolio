@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   /* background-color: #141624; */
+   font-family: "Poppins", sans-serif;
+
+   height: 100vh;
+   width: 100vw;
+   overflow-x: hidden;
+}
+
+button {
+   font-family: "Poppins", sans-serif;
+}
+
+/* background-color: #282a3a; */
+/* font-family: 'Bebas Neue', cursive; */

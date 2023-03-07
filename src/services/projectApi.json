@@ -1,0 +1,60 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "name": "Sistema Delivery",
+      "techs": ["next", "typescript", "css-modules"],
+      "description": "Sistema de delivery que pode ser customizado com informações dinâmicas de cada cliente",
+      "image": "https://images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80",
+      "icons": [
+        "https://cdn-icons-png.flaticon.com/128/5968/5968381.png",
+        "https://mikevpeeren.nl/_next/static/media/next_logo.79d7b4bd.png",
+        "https://img.icons8.com/color/1x/css3.png"
+      ],
+      "repository": "/",
+      "site": "/"
+    },
+    {
+      "id": 2,
+      "name": "Bookshelf",
+      "techs": ["next", "typescript", "tailwind"],
+      "description": "Sistema de organização de livros",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "icons": [
+        "https://cdn-icons-png.flaticon.com/128/5968/5968381.png",
+        "https://mikevpeeren.nl/_next/static/media/next_logo.79d7b4bd.png",
+        "https://img.icons8.com/color/1x/tailwindcss.png"
+      ],
+      "repository": "/",
+      "site": "/"
+    },
+    {
+      "id": 3,
+      "name": "Finanças",
+      "techs": ["react", "typescript", "styled-components"],
+      "description": "Sistema de controle financeiro. Controle e organização de ganhos e gastos.",
+      "image": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80",
+      "icons": [
+        "https://cdn-icons-png.flaticon.com/128/5968/5968381.png",
+        "https://cdn-icons-png.flaticon.com/128/1260/1260667.png",
+        "https://img.icons8.com/color/1x/styled-components.png"
+      ],
+      "repository": "/",
+      "site": "/"
+    },
+    {
+      "id": 4,
+      "name": "Pomodoro Timer",
+      "techs": ["react", "typescript", "styled-components"],
+      "description": "Sistema de controle de tempo. Controla e registra o tempo gasto na realização de alguma tarefa.",
+      "image": "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "icons": [
+        "https://cdn-icons-png.flaticon.com/128/5968/5968381.png",
+        "https://cdn-icons-png.flaticon.com/128/1260/1260667.png",
+        "https://img.icons8.com/color/1x/styled-components.png"
+      ],
+      "repository": "/",
+      "site": "/"
+    }
+  ]
+}
