@@ -1,6 +1,6 @@
-import deliveryImg from "../assets/delivery.jpg";
-import bookImg from "../assets/book.jpg";
+import todoImg from "../assets/to-do-app-img.png";
 import airbnbImg from "../assets/airbnb-clone-img.png";
+import portifolioImg from "../assets/portifolio-img.png";
 
 const jsIcon: string = require("../assets/javascript.svg").default;
 const tsIcon: string = require("../assets/typescript.svg").default;
@@ -22,7 +22,7 @@ export type Project = {
 const ProjectsInfo: Project[] = [
    {
       id: "1",
-      title: "Airbnb-clone",
+      title: "Airbnb-cln",
       techs: ["next", "Javascript", "Tailwind"],
       description: "Clone simples do front-end do site da Airbnb",
       image: airbnbImg,
@@ -33,55 +33,23 @@ const ProjectsInfo: Project[] = [
    {
       id: "2",
       title: "TO-DO",
-      techs: ["react", "Typescript", "Tailwind"],
-      description: "Sistema de gerenciamento de tarefas.",
-      image: bookImg,
+      techs: ["react", "Typescript", "Css-Modules"],
+      description:
+         "Sistema de gerenciamento de tarefas. Veja, adicione, altere e delete suas tarefas.",
+      image: todoImg,
       icons: [reactIcon, tsIcon, brushIcon],
-      repository: "/",
-      site: "/",
+      repository: "https://github.com/larissaOliveiraz/to-do-react",
+      site: "https://to-do-app-sandy-kappa.vercel.app",
    },
    {
       id: "3",
-      title: "Finanças",
+      title: "Portifolio",
       techs: ["react", "Typescript", "Styled-Components"],
-      description:
-         "Sistema de controle financeiro. Controle e organização de ganhos e gastos.",
-      image: "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80",
+      description: "Meu portifolio front-end",
+      image: portifolioImg,
       icons: [reactIcon, tsIcon, brushIcon],
-      repository: "/",
-      site: "/",
-   },
-   {
-      id: "4",
-      title: "Finanças",
-      techs: ["react", "Typescript", "Styled-Components"],
-      description:
-         "Sistema de controle financeiro. Controle e organização de ganhos e gastos.",
-      image: "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80",
-      icons: [reactIcon, tsIcon, brushIcon],
-      repository: "/",
-      site: "/",
-   },
-   {
-      id: "5",
-      title: "NextDelivery",
-      techs: ["next", "Typescript", "Css-Modules"],
-      description:
-         "Sistema de delivery que pode ser customizado com informações dinâmicas de cada cliente",
-      image: deliveryImg,
-      icons: [nextIcon, tsIcon, brushIcon],
-      repository: "/",
-      site: "/",
-   },
-   {
-      id: "6",
-      title: "TO-DO",
-      techs: ["react", "Typescript", "Tailwind"],
-      description: "Sistema de gerenciamento de tarefas.",
-      image: bookImg,
-      icons: [reactIcon, tsIcon, brushIcon],
-      repository: "/",
-      site: "/",
+      repository: "https://github.com/larissaOliveiraz/portifolio",
+      site: "https://larissa-portifolio.vercel.app",
    },
 ];
 
