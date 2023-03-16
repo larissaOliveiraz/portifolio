@@ -1,5 +1,5 @@
 import todoImg from "../assets/to-do-app-img.png";
-import airbnbImg from "../assets/airbnb-clone-img.png";
+import bookNextImg from "../assets/book-next-site.png";
 import portifolioImg from "../assets/portifolio-img.png";
 
 const jsIcon: string = require("../assets/javascript.svg").default;
@@ -22,16 +22,6 @@ export type Project = {
 const ProjectsInfo: Project[] = [
    {
       id: "1",
-      title: "Airbnb-cln",
-      techs: ["next", "Javascript", "Tailwind"],
-      description: "Clone simples do front-end do site da Airbnb",
-      image: airbnbImg,
-      icons: [nextIcon, jsIcon, brushIcon],
-      repository: "https://github.com/larissaOliveiraz/airbnb-cl",
-      site: "https://airbnb-clone-ten-pi.vercel.app",
-   },
-   {
-      id: "2",
       title: "TO-DO",
       techs: ["react", "Typescript", "Css-Modules"],
       description:
@@ -40,6 +30,16 @@ const ProjectsInfo: Project[] = [
       icons: [reactIcon, tsIcon, brushIcon],
       repository: "https://github.com/larissaOliveiraz/to-do-react",
       site: "https://to-do-app-sandy-kappa.vercel.app",
+   },
+   {
+      id: "2",
+      title: "Book-Next",
+      techs: ["next", "Typescript", "Css-Modules"],
+      description: "Sistema e-commerce de compra de livros",
+      image: bookNextImg,
+      icons: [nextIcon, tsIcon, brushIcon],
+      repository: "https://github.com/larissaOliveiraz/book-next",
+      site: "https://book-next-nine.vercel.app",
    },
    {
       id: "3",
