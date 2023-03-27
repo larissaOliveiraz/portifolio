@@ -22,7 +22,13 @@ export const Contact = () => {
                <ContactContainer>
                   <div>
                      <EnvelopeSimple size={32} color="#4b67cc" />
-                     <span>oliveira.larissa.dv@gmail.com</span>
+                     <a
+                        href="mailto:oliveira.larissa.dv@gmail.com"
+                        target="_blank"
+                        rel=" noreferrer"
+                     >
+                        <span>oliveira.larissa.dv@gmail.com</span>
+                     </a>
                   </div>
                   <div>
                      <WhatsappLogo size={32} color="#4b67cc" />

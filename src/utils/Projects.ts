@@ -1,8 +1,8 @@
 import todoImg from "../assets/to-do-app-img.png";
 import bookNextImg from "../assets/book-next-site.png";
+import streamNextImg from "../assets/stream-next-site.png";
 import portifolioImg from "../assets/portifolio-img.png";
 
-const jsIcon: string = require("../assets/javascript.svg").default;
 const tsIcon: string = require("../assets/typescript.svg").default;
 const reactIcon: string = require("../assets/react.svg").default;
 const nextIcon: string = require("../assets/next.svg").default;
@@ -43,6 +43,17 @@ const ProjectsInfo: Project[] = [
    },
    {
       id: "3",
+      title: "Stream",
+      techs: ["next", "Typescript", "Css-Modules"],
+      description:
+         "Website para consultar informações sobre filmes, séries e atores",
+      image: streamNextImg,
+      icons: [nextIcon, tsIcon, brushIcon],
+      repository: "https://github.com/larissaOliveiraz/stream-next",
+      site: "",
+   },
+   {
+      id: "4",
       title: "Portifolio",
       techs: ["react", "Typescript", "Styled-Components"],
       description: "Meu portifolio front-end",
