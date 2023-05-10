@@ -23,7 +23,7 @@ export type Project = {
 const ProjectsInfo: Project[] = [
    {
       id: "1",
-      title: "Finance Control",
+      title: "Finances",
       techs: ["next", "Typescript", "TailwindCSS"],
       description:
          "Sistema de controle financeiro, cadastre seus ganhos e gastos do mês.",
@@ -32,17 +32,7 @@ const ProjectsInfo: Project[] = [
       repository: "https://github.com/larissaOliveiraz/finance-next",
       site: "https://finance-next-delta.vercel.app",
    },
-   {
-      id: "5",
-      title: "TO-DO",
-      techs: ["react", "Typescript", "Css-Modules"],
-      description:
-         "Sistema de gerenciamento de tarefas. Veja, adicione, altere e delete suas tarefas.",
-      image: todoImg,
-      icons: [reactIcon, tsIcon, brushIcon],
-      repository: "https://github.com/larissaOliveiraz/to-do-react",
-      site: "https://to-do-app-sandy-kappa.vercel.app",
-   },
+
    {
       id: "2",
       title: "Book-Next",
@@ -63,6 +53,17 @@ const ProjectsInfo: Project[] = [
       icons: [nextIcon, tsIcon, brushIcon],
       repository: "https://github.com/larissaOliveiraz/stream-next",
       site: "",
+   },
+   {
+      id: "5",
+      title: "TO-DO",
+      techs: ["react", "Typescript", "Css-Modules"],
+      description:
+         "Sistema de gerenciamento de tarefas. Veja, adicione, altere e delete suas tarefas.",
+      image: todoImg,
+      icons: [reactIcon, tsIcon, brushIcon],
+      repository: "https://github.com/larissaOliveiraz/to-do-react",
+      site: "https://to-do-app-sandy-kappa.vercel.app",
    },
    {
       id: "4",
