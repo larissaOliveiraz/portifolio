@@ -59,14 +59,7 @@ export const Home = () => {
                   <TechContainer>
                      <h2>Tecnologias Back-end:</h2>
                      <TechB>
-                        <Techs
-                           techIcon={javaIcon}
-                           techName="Java (aprendendo)"
-                        />
-                        <Techs
-                           techIcon={pythonIcon}
-                           techName="Python (aprendendo)"
-                        />
+                        <Techs techIcon={javaIcon} techName="Java (Spring)" />
                         <Techs techIcon={nextIcon} techName="NextJS" />
                      </TechB>
                   </TechContainer>
